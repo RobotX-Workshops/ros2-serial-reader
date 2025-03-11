@@ -1,32 +1,42 @@
-# Prerequisites
-*.d
+# ROS 2 build and install directories
+**/build/
+**/install/
+**/log/
 
-# Compiled Object files
-*.slo
-*.lo
+# Python Bytecode and Cache Files
+__pycache__/
+*.py[cod]
+
+# CMake Build Artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Colcon Cache and Configuration Files
+*.db
+.colcon/
+
+# Object Files and Compiled Libraries
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
 *.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
+*.out
 
-# Executables
+# Executable Binaries
 *.exe
 *.out
-*.app
+
+# ROS 2 Package Artifacts
+ament_cmake_index/
+
+# System Files
+.DS_Store
+
+# Temporary Files
+*.swp
+*.bak
+*~
+
+# Virtual Environment Files
+*.venv
