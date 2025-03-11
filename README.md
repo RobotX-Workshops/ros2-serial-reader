@@ -44,6 +44,14 @@ Subscribe to the serial data:
 ros2 topic echo /serial_data
 ```
 
+### Parameters
+
+You can change the publiser topic name by passing the topic name as a parameter:
+
+```bash
+ros2 run serial_reader publisher --ros-args -r /serial_data:=/encoder
+```
+
 ## License
 
 This project is licensed under the Apache License 2.0.

@@ -34,7 +34,7 @@ def main():
     node = SerialReader()
     node.run()
     rclpy.spin(node)
-    # rclpy.destroy_node(node)
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
