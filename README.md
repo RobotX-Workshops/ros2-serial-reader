@@ -1,6 +1,6 @@
 # ROS2 Serial Reader
 
-A node used for reading serial data from a serial port and publishing it to a ROS2 topic
+A ROS2 driver node used for reading serial data from a serial port and publishing it to a ROS2 topic
 
 
 ## Including as a Subrepository (Subrepo)
